@@ -42,3 +42,10 @@
 .navbar .active {
   color: #33cc80;
 }
+
+/* Showcase */
+
+#showcase {
+  background: url(./img/food-plate.jpg) no-repeat center right/cover;
+  height: 100vh;
+}
