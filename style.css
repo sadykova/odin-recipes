@@ -1,51 +1,65 @@
-/* Reser */
+/* Reset */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* Logo */
+/* Navigation menu */
 
-.logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#main-header {
+  background: url(./img/food-plate.jpg) no-repeat center/cover;
+  height: 100vh;
 }
 
-.logo img {
-  width: 200px;
-  height: auto;
-}
-
-/* Navbar */
-
-.navbar {
-  background-color: #333;
-  padding: 12px;
+#main-nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
-.navbar li {
-  list-style-type: none;
-  font-size: 20px;
-}
-
-.navbar li a {
-  color: white;
+#main-nav a {
   text-decoration: none;
-  padding: 11.5px 70px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
 }
 
-.navbar .active {
-  color: #33cc80;
+#main-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 20px;
 }
 
-/* Showcase */
+#main-nav ul li {
+  padding: 10px;
+  margin-right: 15px;
+}
 
-#showcase {
-  background: url(./img/food-plate.jpg) no-repeat center right/cover;
-  height: 100vh;
+#main-nav a.active {
+  color: #228b22;
+}
+
+/* Header content */
+
+#header-content {
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+#header-content h1 {
+  color: #fff;
+  font-size: 80px;
+}
+
+.text-green {
+  color: #228b22;
+}
+
+#header-content p {
+  margin-left: 10px;
+  font-size: 35px;
+  color: #228b22;
 }
