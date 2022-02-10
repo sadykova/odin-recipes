@@ -5,9 +5,19 @@
   box-sizing: border-box;
 }
 
+/* Logo */
+
+.logo {
+  color: #228b22;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
 /* Navigation menu */
 
-#main-header {
+.container {
   background: url(./img/food-plate.jpg) no-repeat center/cover;
   height: 100vh;
 }
@@ -63,3 +73,10 @@
   font-size: 35px;
   color: #228b22;
 }
+
+.lead-text {
+  width: 750px;
+  margin-top: 10px;
+}
+
+/* Media queries */
