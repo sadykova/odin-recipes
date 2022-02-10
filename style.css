@@ -79,4 +79,12 @@
   margin-top: 10px;
 }
 
+/* New recipes section */
+
+#latest-recipes .recipe-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
 /* Media queries */
