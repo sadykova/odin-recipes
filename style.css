@@ -81,10 +81,78 @@
 
 /* New recipes section */
 
+.latest-r-container {
+  width: 1450px;
+  margin: auto;
+}
+
 #latest-recipes .recipe-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+}
+
+#latest-recipes h2 {
+  font-size: 45px;
+  margin: 10px 10px 20px 10px;
+  color: #228b22;
+  /* Raspberry color: #e30b5d; */
+}
+
+#latest-recipes h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#latest-recipes a {
+  text-decoration: none;
+  color: #466d1d;
+  font-weight: bold;
+}
+
+article p {
+  font-size: 20px;
+}
+
+.card {
+  border: 2px dashed #228b22;
+  padding: 7.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.category {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 12px;
+  border-radius: 15px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.category-breakfast {
+  background: chocolate;
+}
+
+.category-lunch {
+  background: darkolivegreen;
+}
+
+.category-dinner {
+  background: darksalmon;
+}
+
+.category-dessert {
+  background: #e30b5d;
+}
+
+img {
+  width: 350px;
+  height: auto;
 }
 
 /* Media queries */
