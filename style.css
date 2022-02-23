@@ -217,4 +217,11 @@ img {
   background: yellowgreen;
 }
 
+/* Recipes page */
+
+.container-inner {
+  background: url(./img/food-plate.jpg);
+  height: 10vh;
+}
+
 /* Media queries */
